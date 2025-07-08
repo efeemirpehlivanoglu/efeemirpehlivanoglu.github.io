@@ -1,1 +1,54 @@
-fifa score table
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caner & Ege</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            gap: 30px; /* Kutucuklar arası boşluk */
+        }
+        .box {
+            background-color: #ffffff;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 20px 40px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .box h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.8em;
+        }
+        .box p {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #007bff; /* Sayı rengi */
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Caner</h2>
+            <p>1</p>
+        </div>
+        <div class="box">
+            <h2>Ege</h2>
+            <p>0</p>
+        </div>
+    </div>
+</body>
+</html>
